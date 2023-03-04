@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.eclipse.core.commands-3.10.300">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/research/jar_files/org.eclipse.core.commands-3.10.300.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
