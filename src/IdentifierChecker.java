@@ -32,7 +32,7 @@ public class IdentifierChecker {
         Set<String> identifiers = readIdentifiersFromFile(identifiersFile);
         Set<String> dictionary = readWordsFromFile(dictionaryFile);
         Set<String> unrecognizedWords = compareIdentifiersToDictionary(identifiers, dictionary);
-        try (PrintWriter writer = new PrintWriter("C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedIdentifiers.txt")) {
+        try (PrintWriter writer = new PrintWriter("C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedWords.txt")) {
             for (String n : unrecognizedWords) {
                 writer.println(n);
 

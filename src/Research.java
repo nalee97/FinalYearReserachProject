@@ -43,11 +43,14 @@ public class Research {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        IdentifierChecker ir = new IdentifierChecker();
-        ir.identfierchecker();
 
-        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
-        Dc.DictinaryCompare();
+       // IdentifierSplitter is = new IdentifierSplitter();
+
+//        IdentifierChecker ir = new IdentifierChecker();
+//        ir.identfierchecker();
+//
+//        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
+//        Dc.DictinaryCompare();
 
 
 
