@@ -2,7 +2,7 @@ WordCount
 main
 countWordsViaGUI
 wrdCount
-flelen
+fileleng
 setLookAndFeel
 key
 fileScanner

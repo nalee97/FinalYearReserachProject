@@ -43,6 +43,8 @@ public class Research {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        IdentifierChecker ir = new IdentifierChecker();
+        ir.identfiercheckreturn();
 
 
 
@@ -106,6 +108,7 @@ public class Research {
         public static void splitLine(String line) {
             Pattern pattern = Pattern.compile("[a-zA-Z_$][a-zA-Z_$0-9]*");
             Matcher matcher = pattern.matcher(line);
+
             while (matcher.find()) {
                 String identifier = matcher.group();
                 String[] words = identifier.split("(?<!(^|[A-Z]))(?=[A-Z])|(?<!^)(?=[A-Z][a-z])");
@@ -113,6 +116,8 @@ public class Research {
 
         }
 
+
     }
+
 
 }

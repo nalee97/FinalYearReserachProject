@@ -21,7 +21,7 @@ public class WordCount {
     // allow multiple picks
     public static void countWordsViaGUI() {
     int wrdCount = 5;
-    int flelen = 5;
+    int fileleng = 5;
     }
         setLookAndFeel();
         try {

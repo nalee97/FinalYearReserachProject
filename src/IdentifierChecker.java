@@ -7,7 +7,26 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class IdentifierChecker {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//        //use identifier_splitter class output as an input
+//        String identifiersFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Output.txt";
+//        String dictionaryFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
+//        Set<String> identifiers = readIdentifiersFromFile(identifiersFile);
+//        Set<String> dictionary = readWordsFromFile(dictionaryFile);
+//        Set<String> unrecognizedWords = compareIdentifiersToDictionary(identifiers, dictionary);
+//        try (PrintWriter writer = new PrintWriter("C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedIdentifiers.txt")) {
+//            for (String n : unrecognizedWords) {
+//                writer.println(n);
+//
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//
+//    }
+    public void identfiercheckreturn()
+    {
         String identifiersFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Output.txt";
         String dictionaryFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
         Set<String> identifiers = readIdentifiersFromFile(identifiersFile);
@@ -21,7 +40,6 @@ public class IdentifierChecker {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
     }
 
