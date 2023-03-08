@@ -44,7 +44,10 @@ public class Research {
             e.printStackTrace();
         }
         IdentifierChecker ir = new IdentifierChecker();
-        ir.identfiercheckreturn();
+        ir.identfierchecker();
+
+        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
+        Dc.DictinaryCompare();
 
 
 

@@ -25,7 +25,7 @@ public class IdentifierChecker {
 //
 //
 //    }
-    public void identfiercheckreturn()
+    public void identfierchecker()
     {
         String identifiersFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Output.txt";
         String dictionaryFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";

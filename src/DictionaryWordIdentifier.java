@@ -8,7 +8,26 @@ import java.util.Set;
 
 public class DictionaryWordIdentifier {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//        String inputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedIdentifiers.txt";
+//        String dictionaryFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
+//        String outputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\recognizedIdentifiers.txt";
+//        Set<String> dictionary = readDictionaryFromFile(dictionaryFilePath);
+//        try (BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
+//             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath))) {
+//            String line;
+//            while ((line = reader.readLine()) != null) {
+//                String term = line.trim();
+//                String closestWord = getClosestWord(term, dictionary);
+//                writer.write("Closest real English word to \"" + term + "\": " + closestWord + "\n");
+//            }
+//        } catch (IOException e) {
+//            System.err.println("Error reading input file or writing output file: " + e.getMessage());
+//        }
+//    }
+
+    public void DictinaryCompare()
+    {
         String inputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedIdentifiers.txt";
         String dictionaryFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
         String outputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\recognizedIdentifiers.txt";
