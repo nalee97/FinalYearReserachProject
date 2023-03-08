@@ -43,9 +43,9 @@ public class IdentifierSplitter {
         for (String identifier : identifiers) {
             ArrayList<String> parts = new ArrayList<>();
             //parts.addAll(splitLine(identifier));
-            parts.addAll(splitCamelCase(identifier));
+            //parts.addAll(splitCamelCase(identifier));
             //parts.addAll(splitUnderscore(identifier));
-            //parts.addAll(splitAny(identifier));
+            parts.addAll(splitAny(identifier));
             splitIdentifiers.add(parts);
 
         }
@@ -68,18 +68,18 @@ public class IdentifierSplitter {
 //
 //    }
 
-    public static ArrayList<String> splitCamelCase(String identifier) {
-        ArrayList<String> parts = new ArrayList<>();
-        Pattern pattern = Pattern.compile("[a-z]+|[A-Z][a-z]*|[0-9]+");
-        Matcher matcher = pattern.matcher(identifier);
-        while (matcher.find()) {
-            String part = matcher.group();
-            if (!part.isEmpty()) {
-                parts.add(part);
-            }
-        }
-        return parts;
-    }
+//    public static ArrayList<String> splitCamelCase(String identifier) {
+//        ArrayList<String> parts = new ArrayList<>();
+//        Pattern pattern = Pattern.compile("[a-z]+|[A-Z][a-z]*|[0-9]+");
+//        Matcher matcher = pattern.matcher(identifier);
+//        while (matcher.find()) {
+//            String part = matcher.group();
+//            if (!part.isEmpty()) {
+//                parts.add(part);
+//            }
+//        }
+//        return parts;
+//    }
 //
 //    public static ArrayList<String> splitUnderscore(String identifier) {
 //        ArrayList<String> parts = new ArrayList<>();
@@ -92,16 +92,16 @@ public class IdentifierSplitter {
 //        return parts;
 //    }
 //
-//    public static ArrayList<String> splitAny(String identifier) {
-//        ArrayList<String> parts = new ArrayList<>();
-//        String[] split = identifier.split("[^a-zA-Z0-9]+");
-//        for (String part : split) {
-//            if (!part.isEmpty()) {
-//                parts.add(part);
-//            }
-//        }
-//        return parts;
-//    }
+    public static ArrayList<String> splitAny(String identifier) {
+        ArrayList<String> parts = new ArrayList<>();
+        String[] split = identifier.split("[^a-zA-Z0-9]+");
+        for (String part : split) {
+            if (!part.isEmpty()) {
+                parts.add(part);
+            }
+        }
+        return parts;
+    }
 
     public static void writeOutput(ArrayList<ArrayList<String>> splitIdentifiers, String outputFile) throws IOException {
         FileWriter writer = new FileWriter(new File(outputFile));
