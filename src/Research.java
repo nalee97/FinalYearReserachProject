@@ -46,11 +46,11 @@ public class Research {
 
        // IdentifierSplitter is = new IdentifierSplitter();
 
-//        IdentifierChecker ir = new IdentifierChecker();
-//        ir.identfierchecker();
-//
-//        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
-//        Dc.DictinaryCompare();
+        IdentifierChecker ir = new IdentifierChecker();
+        ir.identfierchecker();
+
+        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
+        Dc.DictinaryCompare();
 
 
 
