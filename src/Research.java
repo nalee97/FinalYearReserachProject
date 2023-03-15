@@ -46,7 +46,6 @@ public class Research {
         IdentifierExtractor ex = new IdentifierExtractor();
         ex.toString();
 
-       // IdentifierSplitter is = new IdentifierSplitter();
 
         IdentifierSplitter is = new IdentifierSplitter();
         is.IdentifierSplitter();
