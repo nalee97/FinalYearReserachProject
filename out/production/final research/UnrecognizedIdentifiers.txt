@@ -1,0 +1,7 @@
+st
+numWordsToShow
+WordCount
+chooser
+retrival
+wrdCount
+fileleng
