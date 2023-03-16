@@ -5,9 +5,7 @@ Closest real English word to "[st]": est
 Closest real English word to "[show,": shows
 Closest real English word to "Via,": via
 Closest real English word to "[smaller,": smaller
-Closest real English word to "[j]": aj
 Closest real English word to "[perform,": performs
-Closest real English word to "[f]": tft
 Closest real English word to "[file,": file
 Closest real English word to "[set,": sets
 Closest real English word to "Word,": word
@@ -30,8 +28,6 @@ Closest real English word to "[count,": count
 Closest real English word to "[get,": get
 Closest real English word to "And,": andy
 Closest real English word to "Scanner]": scanners
-Closest real English word to "[i]": tie
-Closest real English word to "[e]": tea
 Closest real English word to "[num,": drums
 Closest real English word to "Look,": look
 Closest real English word to "Words]": words

@@ -5,9 +5,7 @@ File]
 [show, 
 Via, 
 [smaller, 
-[j]
 [perform, 
-[f]
 [file, 
 [set, 
 Word, 
@@ -30,8 +28,6 @@ Count]
 [get, 
 And, 
 Scanner]
-[i]
-[e]
 [num, 
 Look, 
 Words]

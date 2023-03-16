@@ -7,10 +7,14 @@ import org.eclipse.jdt.core.dom.SimpleName;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,7 +32,7 @@ public class Research {
         try (FileInputStream inputStream = new FileInputStream(file)) {
             inputStream.read(bytes);
             content = new String(bytes);
-            List<String> identifiers = IdentifierExtractor.extractIdentifiers(content);
+            Set<String> identifiers = (Set<String>) IdentifierExtractor.extractIdentifiers(content);
             try (PrintWriter writer = new PrintWriter("C:\\Users\\moham\\IdeaProjects\\final research\\src\\Output.txt")) {
                 for (String s : identifiers) {
                     writer.println(s);
