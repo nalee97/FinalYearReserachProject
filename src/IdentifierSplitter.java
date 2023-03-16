@@ -9,8 +9,8 @@ public class IdentifierSplitter {
 
     public void IdentifierSplitter()
     {
-        String filePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Output.txt";
-        String outputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\split.txt";
+        String filePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnmatchedIdentifiers.txt";
+        String outputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\splitIdentifiers.txt";
         try {
             FileReader fr = new FileReader(filePath);
             BufferedReader br = new BufferedReader(fr);

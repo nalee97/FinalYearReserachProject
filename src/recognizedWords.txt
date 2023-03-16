@@ -1,17 +1,15 @@
 Closest real English word to "GUI]": gui
 Closest real English word to "Map]": maps
-Closest real English word to "[st]": est
 Closest real English word to "File]": file
-Closest real English word to "[key]": key
+Closest real English word to "[st]": est
 Closest real English word to "[show,": shows
 Closest real English word to "Via,": via
 Closest real English word to "[smaller,": smaller
-Closest real English word to "[j]": j
+Closest real English word to "[j]": aj
 Closest real English word to "[perform,": performs
 Closest real English word to "[f]": tft
 Closest real English word to "[file,": file
 Closest real English word to "[set,": sets
-Closest real English word to "[words]": words
 Closest real English word to "Word,": word
 Closest real English word to "[": 
 Closest real English word to "Array,": array
@@ -20,8 +18,8 @@ Closest real English word to "Feel]": feels
 Closest real English word to "EXP]": exp
 Closest real English word to "Words,": words
 Closest real English word to "Exp]": exp
-Closest real English word to "Show]": shows
 Closest real English word to "[fileleng]": filelength
+Closest real English word to "Show]": shows
 Closest real English word to "[big,": big
 Closest real English word to "NUM": um
 Closest real English word to "To,": toe
@@ -32,10 +30,9 @@ Closest real English word to "[count,": count
 Closest real English word to "[get,": get
 Closest real English word to "And,": andy
 Closest real English word to "Scanner]": scanners
-Closest real English word to "[i]": i
-Closest real English word to "[times]": times
-Closest real English word to "[num,": drums
+Closest real English word to "[i]": tie
 Closest real English word to "[e]": tea
+Closest real English word to "[num,": drums
 Closest real English word to "Look,": look
 Closest real English word to "Words]": words
 Closest real English word to ",": 
@@ -44,4 +41,3 @@ Closest real English word to "[chooser]": choose
 Closest real English word to "Works]": works
 Closest real English word to "[retrival]": retrieval
 Closest real English word to "List]": lists
-Closest real English word to "[main]": main

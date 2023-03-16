@@ -27,7 +27,7 @@ public class IdentifierChecker {
 //    }
     public void identfierchecker()
     {
-        String identifiersFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\split.txt";
+        String identifiersFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\splitIdentifiers.txt";
         String dictionaryFile = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
         Set<String> identifiers = readIdentifiersFromFile(identifiersFile);
         Set<String> dictionary = readWordsFromFile(dictionaryFile);

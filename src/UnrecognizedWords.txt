@@ -1,8 +1,7 @@
 GUI]
 Map]
-[st]
 File]
-[key]
+[st]
 [show, 
 Via, 
 [smaller, 
@@ -11,7 +10,6 @@ Via,
 [f]
 [file, 
 [set, 
-[words]
 Word, 
 [
 Array, 
@@ -20,8 +18,8 @@ Feel]
 EXP]
 Words, 
 Exp]
-Show]
 [fileleng]
+Show]
 [big, 
 NUM
 To, 
@@ -33,9 +31,8 @@ Count]
 And, 
 Scanner]
 [i]
-[times]
-[num, 
 [e]
+[num, 
 Look, 
 Words]
 , 
@@ -44,4 +41,3 @@ Exp,
 Works]
 [retrival]
 List]
-[main]

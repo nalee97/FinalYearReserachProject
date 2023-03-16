@@ -46,6 +46,9 @@ public class Research {
         IdentifierExtractor ex = new IdentifierExtractor();
         ex.toString();
 
+        IdentifierComparerWithExtractedIdentifiers in = new IdentifierComparerWithExtractedIdentifiers();
+        in.compareWithIdExtractor();
+
 
         IdentifierSplitter is = new IdentifierSplitter();
         is.IdentifierSplitter();
