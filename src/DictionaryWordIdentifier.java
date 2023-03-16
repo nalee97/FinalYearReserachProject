@@ -28,7 +28,7 @@ public class DictionaryWordIdentifier {
 
     public void DictinaryCompare()
     {
-        String inputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedWords.txt";
+        String inputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\UnrecognizedIdentifiers.txt";
         String dictionaryFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\Dictionarywords.txt";
         String outputFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\recognizedWords.txt";
         Set<String> dictionary = readDictionaryFromFile(dictionaryFilePath);

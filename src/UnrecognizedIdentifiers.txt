@@ -1,20 +1,7 @@
-[NUM_, EXP]
-[count, Words, With, Array, List]
-[count, Words, Via, GUI]
-[fileleng]
-[big, File]
-[timing, Exp, With, Map]
-[smaller, Works]
-[Word, Count]
-[count, Words, With, Map]
-[st]
-[get, File]
-[file, Scanner]
-[set, Look, And, Feel]
-[show, Words]
-[chooser]
-[perform, Exp]
-[wrd, Count]
-[retrival]
-[num, Words, To, Show]
-[timing, Exp, With, Array, List]
+st
+numWordsToShow
+WordCount
+chooser
+retrival
+wrdCount
+fileleng
