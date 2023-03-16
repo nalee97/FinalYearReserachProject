@@ -2,11 +2,7 @@ bigFile
 st
 numWordsToShow
 countWordsWithArrayList
-e
-f
-i
 timingExpWithArrayList
-j
 chooser
 retrival
 getFile

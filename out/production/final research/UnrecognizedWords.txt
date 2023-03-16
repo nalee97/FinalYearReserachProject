@@ -1,43 +1,20 @@
-GUI]
-Map]
-File]
-[st]
-[show, 
-Via, 
-[smaller, 
-[j]
-[perform, 
-[f]
-[file, 
-[set, 
-Word, 
-[
-Array, 
-[timing, 
-Feel]
-EXP]
-Words, 
-Exp]
+[NUM_, EXP]
+[count, Words, With, Array, List]
+[count, Words, Via, GUI]
 [fileleng]
-Show]
-[big, 
-NUM
-To, 
-With, 
-Count]
-[wrd, 
-[count, 
-[get, 
-And, 
-Scanner]
-[i]
-[e]
-[num, 
-Look, 
-Words]
-, 
-Exp, 
+[big, File]
+[timing, Exp, With, Map]
+[smaller, Works]
+[Word, Count]
+[count, Words, With, Map]
+[st]
+[get, File]
+[file, Scanner]
+[set, Look, And, Feel]
+[show, Words]
 [chooser]
-Works]
+[perform, Exp]
+[wrd, Count]
 [retrival]
-List]
+[num, Words, To, Show]
+[timing, Exp, With, Array, List]

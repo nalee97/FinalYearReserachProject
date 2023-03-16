@@ -57,8 +57,8 @@ public class Research {
         IdentifierSplitter is = new IdentifierSplitter();
         is.IdentifierSplitter();
 
-        IdentifierChecker ir = new IdentifierChecker();
-        ir.identfierchecker();
+        IdentifierChecker ic = new IdentifierChecker();
+        ic.identifierChecker();
 
         DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
         Dc.DictinaryCompare();
