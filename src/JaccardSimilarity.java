@@ -11,7 +11,7 @@ public class JaccardSimilarity {
         String unrecognizedFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\unrecognizedWords.txt";
 
         double threshold = 0.8; // Jaccard similarity threshold
-        int maxEditDistance = 2; // maximum edit distance for matching words
+        int maxEditDistance = 3; // maximum edit distance for matching words
 
         Set<String> dictionary = readDictionaryFromFile(dictionaryFilePath);
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
