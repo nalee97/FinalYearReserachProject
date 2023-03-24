@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 public class JaccardSimilarity {
 
@@ -10,8 +15,8 @@ public class JaccardSimilarity {
         String recognizedFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\recognizedWords.txt";
         String unrecognizedFilePath = "C:\\Users\\moham\\IdeaProjects\\final research\\src\\unrecognizedWords.txt";
 
-        double threshold = 0.8; // Jaccard similarity threshold
-        int maxEditDistance = 3; // maximum edit distance for matching words
+        double threshold = 0.7; // Jaccard similarity threshold
+        int maxEditDistance = 2; // maximum edit distance for matching words
 
         Set<String> dictionary = readDictionaryFromFile(dictionaryFilePath);
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
