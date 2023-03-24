@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class Research {
     public static void main(String[] args) {
 
-        File file = new File("C:\\Users\\moham\\IdeaProjects\\final research\\src\\ExampleFile.txt");
+        File file = new File("C:\\Users\\moham\\Desktop\\samplefiles\\Test3.java");
         int length = (int) file.length();
         byte[] bytes = new byte[length];
 
@@ -50,9 +50,8 @@ public class Research {
         IdentifierExtractor ex = new IdentifierExtractor();
         ex.toString();
 
-        IdentifierComparerWithExtractedIdentifiers in = new IdentifierComparerWithExtractedIdentifiers();
-        in.compareWithIdExtractor();
-
+        IdentifierComparerWithExtractedIdentifiers ice =new IdentifierComparerWithExtractedIdentifiers();
+        ice.compareWithIdExtractor();
 
         IdentifierSplitter is = new IdentifierSplitter();
         is.IdentifierSplitter();
@@ -60,8 +59,10 @@ public class Research {
         IdentifierChecker ic = new IdentifierChecker();
         ic.identifierChecker();
 
-        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
-        Dc.DictinaryCompare();
+//        DictionaryWordIdentifier Dc = new DictionaryWordIdentifier();
+//        Dc.DictinaryCompare();
+        JaccardSimilarity jc = new JaccardSimilarity();
+        jc.jaccardsimilarity();
 
 
 

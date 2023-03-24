@@ -1,7 +1,2 @@
-Closest real English word to "st": s
-Closest real English word to "numWordsToShow": understood
-Closest real English word to "WordCount": workout
-Closest real English word to "chooser": choose
-Closest real English word to "retrival": retrieval
-Closest real English word to "wrdCount": count
-Closest real English word to "fileleng": filelength
+Closest real English word to "Bdererr": bred
+Closest real English word to "lenth": telethon

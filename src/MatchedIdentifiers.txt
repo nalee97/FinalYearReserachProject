@@ -1,8 +1,6 @@
-times
-e
-f
-words
-i
-main
-j
-key
+age : age
+Email : Email
+guest : guest
+Address : Address
+Rooms : Rooms
+name : name

@@ -1,21 +1,21 @@
-bigFile
-countWordsWithArrayList
-e
-f
-words
-i
-main
-timingExpWithArrayList
-j
-getFile
-countWordsViaGUI
-fileScanner
-times
-smallerWorks
-showWords
-setLookAndFeel
-performExp
-countWordsWithMap
-key
-timingExpWithMap
-NUM_EXP
+SetReservationNumber: Set; Reservation; Number
+BookRoom: Book; Room
+GetReservationNumber: Get; Reservation; Number
+Checkaccurate: Check; accurate
+ReserveRoom: Reserve; Room
+cancelReservation: cancel; Reservation
+makeReservation: make; Reservation
+CancelReservation: Cancel; Reservation
+PricePerNight: Price; Per; Night
+IsOccupied: Is; Occupied
+guestName: guest; Name
+reservationNumber: reservation; Number
+RemoveRoom: Remove; Room
+RoomType: Room; Type
+IsCleaned: Is; Cleaned
+reservationDate: reservation; Date
+RoomNumber: Room; Number
+roomNumber: room; Number
+HotelRoom: Hotel; Room
+GuestName: Guest; Name
+AddRoom: Add; Room

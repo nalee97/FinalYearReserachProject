@@ -1,0 +1,6 @@
+age : age
+Email : Email
+guest : guest
+Address : Address
+Rooms : Rooms
+name : name
